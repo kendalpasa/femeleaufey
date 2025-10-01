@@ -30,11 +30,4 @@ getStarted.addEventListener('click', function() {
         behavior: 'smooth',
         block: 'start'
     });
-
-    viewerSection.style.opacity = 0;
-    setTimeout(() => {
-        viewerSection.style.transition = 'opacity 0.5s ease';
-        viewerSection.style.opacity = 1;
-    })
-
 });
